@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<form action="{{url('uploadproduct')}}" method="post" enctype="multipart/form-data">
+
+<input type="text" name="name" placeholder="Product Name">
+
+<input type="text" name="description" placeholder="Product Description">
+
+<input type="file" name="file">
+
+<input type="submit">
+
+</form>
+
+
+
+</body>
+</html>
